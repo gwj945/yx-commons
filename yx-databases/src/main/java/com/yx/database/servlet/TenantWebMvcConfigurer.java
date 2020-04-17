@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 多租户配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019/10/23
  */
 public class TenantWebMvcConfigurer implements WebMvcConfigurer {

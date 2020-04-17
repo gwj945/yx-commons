@@ -6,11 +6,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * 配置类
  *
- * @author zuihou
+ * @author yx
  * @create 2020年01月19日09:11:19
  */
 @Data
-@ConfigurationProperties("zuihou.injection")
+@ConfigurationProperties("yx.injection")
 public class InjectionProperties {
     /**
      * 是否启用远程查询

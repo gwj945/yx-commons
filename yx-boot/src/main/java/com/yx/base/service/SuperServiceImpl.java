@@ -22,7 +22,7 @@ import static com.yx.exception.code.ExceptionCode.SERVICE_MAPPER_ERROR;
  *
  * @param <M> Mapper
  * @param <T> 实体
- * @author zuihou
+ * @author yx
  * @date 2020年02月27日18:15:17
  */
 public class SuperServiceImpl<M extends SuperMapper<T>, T> extends ServiceImpl<M, T> implements SuperService<T> {

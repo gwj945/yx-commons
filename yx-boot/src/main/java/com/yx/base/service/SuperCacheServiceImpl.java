@@ -26,7 +26,7 @@ import java.util.Collection;
  *
  * @param <M>
  * @param <T>
- * @author zuihou
+ * @author yx
  * @date 2020年02月27日18:15:17
  */
 public abstract class SuperCacheServiceImpl<M extends SuperMapper<T>, T> extends SuperServiceImpl<M, T> implements SuperCacheService<T> {

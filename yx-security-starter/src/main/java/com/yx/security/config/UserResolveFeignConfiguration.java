@@ -21,11 +21,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 /**
  * 类型为Feign时，使用的的实现类
  *
- * @author zuihou
+ * @author yx
  * @date 2020年02月29日21:35:37
  */
 @Configuration
-@ConditionalOnProperty(name = "zuihou.scan.type", havingValue = "FEIGN", matchIfMissing = true)
+@ConditionalOnProperty(name = "yx.scan.type", havingValue = "FEIGN", matchIfMissing = true)
 @EnableFeignClients(basePackageClasses = UserResolveFeignConfiguration.UserResolveApi.class)
 public class UserResolveFeignConfiguration {
 
@@ -42,7 +42,7 @@ public class UserResolveFeignConfiguration {
         return new SpringUtils();
     }
 
-    @FeignClient(name = "${zuihou.feign.oauth-server:zuihou-oauth-server}", path = "/user",
+    @FeignClient(name = "${yx.feign.oauth-server:yx-oauth-server}", path = "/user",
             fallback = UserResolveApiFallback.class)
     public interface UserResolveApi {
 
@@ -60,7 +60,7 @@ public class UserResolveFeignConfiguration {
     /**
      * feign 实现
      *
-     * @author zuihou
+     * @author yx
      * @date 2020年02月24日10:51:46
      */
     public class UserResolverServiceFeignImpl implements UserResolverService {
@@ -79,7 +79,7 @@ public class UserResolveFeignConfiguration {
     /**
      * 用户API熔断
      *
-     * @author zuihou
+     * @author yx
      * @date 2019/07/10
      */
     @Component

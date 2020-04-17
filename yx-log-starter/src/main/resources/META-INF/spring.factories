@@ -1,5 +1,5 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    com.github.zuihou.log.LogAutoConfiguration
+    com.yx.log.LogAutoConfiguration
 org.springframework.context.ApplicationContextInitializer=\
-    com.github.zuihou.log.init.ApplicationLoggerInitializer, \
-    com.github.zuihou.log.MyMDCAdapterInitializer
+    com.yx.log.init.ApplicationLoggerInitializer, \
+    com.yx.log.MyMDCAdapterInitializer

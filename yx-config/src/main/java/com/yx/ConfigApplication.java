@@ -3,7 +3,7 @@ package com.yx;
 /**
  * 没什么用
  *
- * @author zuihou
+ * @author yx
  * @date 2020年04月06日22:18:27
  */
 public class ConfigApplication {

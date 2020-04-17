@@ -9,14 +9,14 @@ import static com.yx.log.properties.OptLogProperties.PREFIX;
 /**
  * 操作日志配置类
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月09日15:00:47
  */
 @ConfigurationProperties(prefix = PREFIX)
 @Data
 @NoArgsConstructor
 public class OptLogProperties {
-    public static final String PREFIX = "zuihou.log";
+    public static final String PREFIX = "yx.log";
 
     /**
      * 是否启用

@@ -11,7 +11,7 @@ import java.lang.annotation.*;
  * 例5：public void test(@LoginUser(isFull = true) SysUser user) //能获取SysUser对象的所有信息
  * 例5：public void test(@LoginUser(isResource = true) SysUser user) //能获取SysUser对象的实时的用户信息和资源信息
  *
- * @author zuihou
+ * @author yx
  * @date 2018/7/24 16:44
  */
 @Target(ElementType.PARAMETER)

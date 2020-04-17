@@ -1,7 +1,7 @@
 package com.yx.exception.code;
 
 /**
- * @author zuihou
+ * @author yx
  * @createTime 2017-12-25 13:46
  */
 public interface BaseExceptionCode {

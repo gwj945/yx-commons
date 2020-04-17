@@ -15,14 +15,14 @@ import static com.yx.database.properties.MultiTenantType.SCHEMA;
 /**
  * 客户端认证配置
  *
- * @author zuihou
+ * @author yx
  * @date 2018/11/20
  */
 @ConfigurationProperties(prefix = PREFIX)
 @Data
 @NoArgsConstructor
 public class DatabaseProperties {
-    public static final String PREFIX = "zuihou.database";
+    public static final String PREFIX = "yx.database";
     /**
      * 攻击 SQL 阻断解析器
      *
@@ -49,7 +49,7 @@ public class DatabaseProperties {
     /**
      * 租户库 前缀
      */
-    private String tenantDatabasePrefix = "zuihou_base";
+    private String tenantDatabasePrefix = "yx_base";
 
     /**
      * 多租户模式

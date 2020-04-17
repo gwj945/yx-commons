@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * 动态表名解析
  *
- * @author zuihou
+ * @author yx
  * @date 2019/08/20
  */
 @Data
@@ -23,7 +23,7 @@ import java.util.Map;
 @NoArgsConstructor
 public class DynamicTableNameParser implements ISqlParser {
 
-    private String database = "zuihou_base";
+    private String database = "yx_base";
     private ITableNameHandler defaultTableNameHandler = (metaObject, sql, tableName) -> {
         String tenantCode = BaseContextHandler.getTenant();
         if (StrUtil.isEmpty(tenantCode)) {
@@ -60,9 +60,9 @@ public class DynamicTableNameParser implements ISqlParser {
             //    }
             //}
 
-            // 本项目所有服务连接的默认数据库都是zuihou_defaults， 不执行以下代码，将在默认库中执行sql
+            // 本项目所有服务连接的默认数据库都是yx_defaults， 不执行以下代码，将在默认库中执行sql
 
-            // 想要 执行sql时， 不切换到 zuihou_base_{TENANT} 库, 请直接返回null
+            // 想要 执行sql时， 不切换到 yx_base_{TENANT} 库, 请直接返回null
             String tenantCode = BaseContextHandler.getTenant();
             if (StrUtil.isEmpty(tenantCode)) {
                 return null;

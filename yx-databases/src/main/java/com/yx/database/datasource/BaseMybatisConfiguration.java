@@ -30,12 +30,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Mybatis 常用重用拦截器，zuihou.database.multiTenantType=任意模式 都需要实例出来
+ * Mybatis 常用重用拦截器，yx.database.multiTenantType=任意模式 都需要实例出来
  * <p>
  * 拦截器执行一定是：
  * WriteInterceptor > DataScopeInterceptor > PaginationInterceptor
  *
- * @author zuihou
+ * @author yx
  * @date 2018/10/24
  */
 @Slf4j
@@ -54,7 +54,7 @@ public class BaseMybatisConfiguration {
     @Bean
     @Order(15)
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(name = "zuihou.database.isNotWrite", havingValue = "true")
+    @ConditionalOnProperty(name = "yx.database.isNotWrite", havingValue = "true")
     public WriteInterceptor getWriteInterceptor() {
         return new WriteInterceptor();
     }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yx-boot/yx-boot.iml" filepath="$PROJECT_DIR$/yx-boot/yx-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-cache-starter/yx-cache-starter.iml" filepath="$PROJECT_DIR$/yx-cache-starter/yx-cache-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-cloud-starter/yx-cloud-starter.iml" filepath="$PROJECT_DIR$/yx-cloud-starter/yx-cloud-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-commons.iml" filepath="$PROJECT_DIR$/yx-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-config/yx-config.iml" filepath="$PROJECT_DIR$/yx-config/yx-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-core/yx-core.iml" filepath="$PROJECT_DIR$/yx-core/yx-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-databases/yx-databases.iml" filepath="$PROJECT_DIR$/yx-databases/yx-databases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-dozer-starter/yx-dozer-starter.iml" filepath="$PROJECT_DIR$/yx-dozer-starter/yx-dozer-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-injection-starter/yx-injection-starter.iml" filepath="$PROJECT_DIR$/yx-injection-starter/yx-injection-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-j2cache-starter/yx-j2cache-starter.iml" filepath="$PROJECT_DIR$/yx-j2cache-starter/yx-j2cache-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-jwt-starter/yx-jwt-starter.iml" filepath="$PROJECT_DIR$/yx-jwt-starter/yx-jwt-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-log-starter/yx-log-starter.iml" filepath="$PROJECT_DIR$/yx-log-starter/yx-log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-mq-starter/yx-mq-starter.iml" filepath="$PROJECT_DIR$/yx-mq-starter/yx-mq-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-scan-starter/yx-scan-starter.iml" filepath="$PROJECT_DIR$/yx-scan-starter/yx-scan-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-security-starter/yx-security-starter.iml" filepath="$PROJECT_DIR$/yx-security-starter/yx-security-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-swagger2-starter/yx-swagger2-starter.iml" filepath="$PROJECT_DIR$/yx-swagger2-starter/yx-swagger2-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-validator-starter/yx-validator-starter.iml" filepath="$PROJECT_DIR$/yx-validator-starter/yx-validator-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-xss-starter/yx-xss-starter.iml" filepath="$PROJECT_DIR$/yx-xss-starter/yx-xss-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yx-zipkin-client-starter/yx-zipkin-client-starter.iml" filepath="$PROJECT_DIR$/yx-zipkin-client-starter/yx-zipkin-client-starter.iml" />
+    </modules>
+  </component>
+</project>

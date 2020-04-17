@@ -29,7 +29,7 @@ import java.util.Properties;
 /**
  * 多租户拦截器
  *
- * @author zuihou
+ * @author yx
  * @date 2019-11-26 09:27
  */
 @Intercepts(value = {

@@ -8,7 +8,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
  * 通过环境变量的形式注入 logging.file.name
  * 自动维护 Spring Boot Admin Logger Viewer
  *
- * @author zuihou
+ * @author yx
  * @date 2019-06-25
  */
 public class ApplicationLoggerInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

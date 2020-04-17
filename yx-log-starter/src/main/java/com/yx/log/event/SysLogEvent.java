@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationEvent;
 /**
  * 系统日志事件
  *
- * @author zuihou
+ * @author yx
  * @date 2019-07-01 15:13
  */
 public class SysLogEvent extends ApplicationEvent {

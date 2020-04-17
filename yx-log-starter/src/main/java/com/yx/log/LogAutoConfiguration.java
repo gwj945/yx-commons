@@ -26,9 +26,9 @@ import org.springframework.scheduling.annotation.EnableAsync;
  * <p>
  * 启动条件：
  * 1，存在web环境
- * 2，配置文件中zuihou.log.enabled=true 或者 配置文件中不存在：zuihou.log.enabled 值
+ * 2，配置文件中yx.log.enabled=true 或者 配置文件中不存在：yx.log.enabled 值
  *
- * @author zuihou
+ * @author yx
  * @date 2019/2/1
  */
 @EnableAsync
@@ -51,7 +51,7 @@ public class LogAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnExpression("${zuihou.log.enabled:true} && 'LOGGER'.equals('${zuihou.log.type:LOGGER}')")
+    @ConditionalOnExpression("${yx.log.enabled:true} && 'LOGGER'.equals('${yx.log.type:LOGGER}')")
     public SysLogListener sysLogListener() {
         return new SysLogListener((log) -> {
             PointUtil.debug("0", "OPT_LOG", JSONObject.toJSONString(log));

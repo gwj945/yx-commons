@@ -27,7 +27,7 @@ import java.util.List;
  * @param <Entity>  实体
  * @param <Id>      主键
  * @param <PageDTO> 分页参数
- * @author zuihou
+ * @author yx
  * @date 2020年03月07日22:06:35
  */
 public interface QueryController<Entity, Id extends Serializable, PageDTO> extends PageController<Entity, PageDTO> {

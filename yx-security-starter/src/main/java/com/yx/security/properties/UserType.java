@@ -3,7 +3,7 @@ package com.yx.security.properties;
 /**
  * 调用用户信息的类型
  *
- * @author zuihou
+ * @author yx
  * @date 2020年02月24日10:47:49
  */
 public enum UserType {

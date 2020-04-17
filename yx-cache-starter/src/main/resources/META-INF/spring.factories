@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    com.github.zuihou.cache.CacheAutoConfigure
+    com.yx.cache.CacheAutoConfigure

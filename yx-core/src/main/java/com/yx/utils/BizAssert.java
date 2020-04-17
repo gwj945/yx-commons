@@ -17,7 +17,7 @@ import static com.yx.exception.BaseException.BASE_VALID_PARAM;
 /**
  * 断言
  *
- * @author zuihou
+ * @author yx
  * @@date 2019-07-22 14:44
  * @see BizException
  * @since 4.0

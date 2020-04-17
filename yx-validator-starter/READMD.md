@@ -1,5 +1,5 @@
 # 说明
-## 测试代码请查看： zuihou-authortiy-controller -> test/*ValidateController
+## 测试代码请查看： yx-authortiy-controller -> test/*ValidateController
 
 ## 官方对一下3种 入参类型 的请求都支持校验
 - 1、普通参数类型 （详见：ParamValidateController）

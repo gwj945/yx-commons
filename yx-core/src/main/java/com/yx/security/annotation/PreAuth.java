@@ -16,7 +16,7 @@ import java.lang.annotation.*;
  * <p>
  * 则：UserController 的所有CRUD方法均分别需要 user:add、user:update、user:delete、user:view 等权限
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月29日21:14:20
  */
 @Target({ElementType.METHOD, ElementType.TYPE})

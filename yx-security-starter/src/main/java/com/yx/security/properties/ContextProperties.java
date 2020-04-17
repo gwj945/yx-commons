@@ -9,10 +9,10 @@ import java.util.List;
 /**
  * 无需 token 的url
  *
- * @author zuihou
+ * @author yx
  */
 @Data
-@ConfigurationProperties("zuihou.context")
+@ConfigurationProperties("yx.context")
 public class ContextProperties {
 
     /**

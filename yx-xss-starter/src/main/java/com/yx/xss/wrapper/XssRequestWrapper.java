@@ -14,7 +14,7 @@ import static com.yx.xss.utils.XssUtils.xssClean;
 /**
  * 跨站攻击请求包装器
  *
- * @author zuihou
+ * @author yx
  * @date 2019-06-28 17:04
  */
 @Slf4j

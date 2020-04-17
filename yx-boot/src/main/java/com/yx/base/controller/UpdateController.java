@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
  *
  * @param <Entity>    实体
  * @param <UpdateDTO> 修改参数
- * @author zuihou
+ * @author yx
  * @date 2020年03月07日22:30:37
  */
 public interface UpdateController<Entity, UpdateDTO> extends BaseController<Entity> {

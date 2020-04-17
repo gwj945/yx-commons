@@ -12,7 +12,7 @@ import java.sql.*;
  * <p>
  * 借鉴Hibernate的外键字段的思想，自定义一个类型处理器，将
  *
- * @author zuihou
+ * @author yx
  * @date 2020年01月18日17:20:34
  */
 public class RemoteDataTypeHandler extends BaseTypeHandler<RemoteData> {

@@ -24,7 +24,7 @@ import static com.yx.exception.code.ExceptionCode.JWT_PARSER_TOKEN_FAIL;
 /**
  * Secure工具类
  *
- * @author zuihou
+ * @author yx
  */
 @Slf4j
 public class JwtUtil {
@@ -120,7 +120,7 @@ public class JwtUtil {
      * 解析jwt
      *
      * @param jsonWebToken jsonWebToken
-     * @return zuihou
+     * @return yx
      */
     public static Claims parseJWT(String jsonWebToken) {
         try {
@@ -156,7 +156,7 @@ public class JwtUtil {
      * 获取Claims
      *
      * @param token
-     * @return zuihou
+     * @return yx
      */
     public static Claims getClaims(String token) {
         if (token == null) {

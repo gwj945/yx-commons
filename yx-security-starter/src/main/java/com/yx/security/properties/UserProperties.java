@@ -6,13 +6,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * 属性
  *
- * @author zuihou
+ * @author yx
  * @date 2020年02月24日10:48:35
  */
 @Data
 @ConfigurationProperties(prefix = UserProperties.PREFIX)
 public class UserProperties {
-    public final static String PREFIX = "zuihou.security";
+    public final static String PREFIX = "yx.security";
     /**
      * 是否启用uri权限
      */

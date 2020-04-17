@@ -3,7 +3,7 @@ package com.yx.exception;
 /**
  * 运行期异常基类
  *
- * @author zuihou
+ * @author yx
  * @version 1.0
  * @see Exception
  */

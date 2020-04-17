@@ -13,7 +13,7 @@ import java.sql.SQLException;
 /**
  * 仅仅用于like查询
  *
- * @author zuihou
+ * @author yx
  */
 public class BaseLikeTypeHandler extends BaseTypeHandler<CharSequence> {
 

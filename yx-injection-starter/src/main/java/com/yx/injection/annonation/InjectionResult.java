@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * 自动注入数据返回值注入 注解
  *
- * @author zuihou
+ * @author yx
  * @create 2020年01月19日09:08:40
  */
 @Retention(RetentionPolicy.RUNTIME)

@@ -5,7 +5,7 @@ import lombok.*;
 import java.util.List;
 
 /**
- * @author zuihou
+ * @author yx
  * 用户实体
  */
 @Data

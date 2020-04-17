@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * feign
  *
- * @author zuihou
+ * @author yx
  * @date 2019-07-25 11:23
  */
 @Slf4j

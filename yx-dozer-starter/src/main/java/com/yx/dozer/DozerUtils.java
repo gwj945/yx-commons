@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 /**
  * 很诡异，DozerUtils 工具类不能以 xxMapper 结尾
  *
- * @author zuihou
+ * @author yx
  * @createTime 2017-12-08 14:41
  */
 public class DozerUtils {

@@ -3,7 +3,7 @@ package com.yx.security.constant;
 /**
  * 系统默认角色
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月29日21:16:22
  */
 public class RoleConstant {

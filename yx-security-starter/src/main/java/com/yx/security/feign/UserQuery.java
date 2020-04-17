@@ -6,7 +6,7 @@ import lombok.experimental.Accessors;
 /**
  * 用户查询对象
  *
- * @author zuihou
+ * @author yx
  * @date 2019-07-10 11:37
  */
 @Data

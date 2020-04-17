@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Import;
  * "com.yx.mq"
  * })
  *
- * @author zuihou
+ * @author yx
  * @date 2019/09/20
  */
 @Configuration
@@ -25,12 +25,12 @@ public class MyRabbitMqConfiguration {
     @Slf4j
     @Configuration
     @ConditionalOnProperty(name = {
-            "zuihou.rabbitmq.enabled"
+            "yx.rabbitmq.enabled"
     }, havingValue = "false", matchIfMissing = true)
     @EnableAutoConfiguration(exclude = {RabbitAutoConfiguration.class})
     public static class RabbitMqConfiguration {
         public RabbitMqConfiguration() {
-            log.warn("检测到zuihou.rabbitmq.enabled=false，排除了 RabbitMQ");
+            log.warn("检测到yx.rabbitmq.enabled=false，排除了 RabbitMQ");
         }
     }
 

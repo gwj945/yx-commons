@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * jwt 存储的 内容
  *
- * @author zuihou
+ * @author yx
  * @date 2018/11/20
  */
 @Data

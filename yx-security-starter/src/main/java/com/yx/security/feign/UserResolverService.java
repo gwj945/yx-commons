@@ -6,7 +6,7 @@ import com.yx.security.model.SysUser;
 import com.yx.security.model.SysUser;
 
 /**
- * @author zuihou
+ * @author yx
  * @date 2020年02月24日10:41:49
  */
 public interface UserResolverService {

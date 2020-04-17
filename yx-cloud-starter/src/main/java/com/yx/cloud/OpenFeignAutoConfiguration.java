@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * OpenFeign 配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019/07/25
  */
 public class OpenFeignAutoConfiguration {

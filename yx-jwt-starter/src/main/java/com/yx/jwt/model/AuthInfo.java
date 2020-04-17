@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * AuthInfo
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月31日21:43:31
  */
 @Data

@@ -38,11 +38,11 @@ import java.util.Optional;
 /**
  * redis 配置类
  *
- * @author zuihou
+ * @author yx
  * @date 2019-08-06 10:42
  */
 @ConditionalOnClass(RedisConnectionFactory.class)
-@ConditionalOnProperty(name = "zuihou.cache.type", havingValue = "REDIS", matchIfMissing = true)
+@ConditionalOnProperty(name = "yx.cache.type", havingValue = "REDIS", matchIfMissing = true)
 @EnableConfigurationProperties({RedisProperties.class, CustomCacheProperties.class})
 public class RedisAutoConfigure {
     @Autowired

@@ -22,7 +22,7 @@ import java.util.Map;
  *
  * @param <Entity>  实体
  * @param <PageDTO> 分页参数
- * @author zuihou
+ * @author yx
  * @date 2020年03月07日22:06:35
  */
 public interface PageController<Entity, PageDTO> extends BaseController<Entity> {

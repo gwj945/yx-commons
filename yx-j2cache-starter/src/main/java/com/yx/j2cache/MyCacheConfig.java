@@ -15,7 +15,7 @@ import java.util.Collections;
 /**
  * 覆盖 SpringCache 相关配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019-10-18 09:06
  */
 public class MyCacheConfig extends CachingConfigurerSupport {
@@ -27,7 +27,7 @@ public class MyCacheConfig extends CachingConfigurerSupport {
 
     /**
      * 解决注解：Cacheable 没有指定key时，会将key生成为 ${value}:SimpleKey []
-     * eg： @Cacheable(value = "zuihou") ->  zuihou:SimpleKey []
+     * eg： @Cacheable(value = "yx") ->  yx:SimpleKey []
      *
      * @return
      */

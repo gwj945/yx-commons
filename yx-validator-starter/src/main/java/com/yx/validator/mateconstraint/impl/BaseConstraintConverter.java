@@ -13,7 +13,7 @@ import java.util.Map;
 /**
  * 约束提取基础类
  *
- * @author zuihou
+ * @author yx
  * @date 2019-07-14 12:13
  */
 public abstract class BaseConstraintConverter implements IConstraintConverter {
@@ -50,7 +50,7 @@ public abstract class BaseConstraintConverter implements IConstraintConverter {
      *
      * @param
      * @return
-     * @author zuihou
+     * @author yx
      * @date 2019-07-14 12:14
      */
     protected abstract List<Class<? extends Annotation>> getSupport();

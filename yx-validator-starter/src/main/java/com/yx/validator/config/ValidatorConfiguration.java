@@ -29,7 +29,7 @@ import javax.validation.constraints.NotNull;
 /**
  * 验证器配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019/07/14
  */
 public class ValidatorConfiguration {

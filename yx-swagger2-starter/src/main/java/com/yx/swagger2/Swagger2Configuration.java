@@ -18,10 +18,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Swagger2 启动类
  * 启动条件：
- * 1，配置文件中zuihou.swagger.enabled=true
- * 2，配置文件中不存在：zuihou.swagger.enabled 值
+ * 1，配置文件中yx.swagger.enabled=true
+ * 2，配置文件中不存在：yx.swagger.enabled 值
  *
- * @author zuihou
+ * @author yx
  * @date 2018/11/18 9:20
  */
 @Configuration
@@ -57,14 +57,14 @@ public class Swagger2Configuration implements WebMvcConfigurer {
 
         @Bean
         @ConditionalOnMissingBean
-        @ConditionalOnProperty(name = "zuihou.swagger.production", havingValue = "true")
+        @ConditionalOnProperty(name = "yx.swagger.production", havingValue = "true")
         public ProductionSecurityFilter productionSecurityFilter(SwaggerProperties swaggerProperties) {
             return new ProductionSecurityFilter(swaggerProperties.getProduction());
         }
 
         @Bean
         @ConditionalOnMissingBean
-        @ConditionalOnProperty(name = "zuihou.swagger.basic.enable", havingValue = "true")
+        @ConditionalOnProperty(name = "yx.swagger.basic.enable", havingValue = "true")
         public SecurityBasicAuthFilter securityBasicAuthFilter(SwaggerProperties swaggerProperties) {
             SwaggerProperties.Basic basic = swaggerProperties.getBasic();
             return new SecurityBasicAuthFilter(basic.getEnable(), basic.getUsername(), basic.getPassword());
@@ -72,7 +72,7 @@ public class Swagger2Configuration implements WebMvcConfigurer {
 
         @Bean(initMethod = "init")
         @ConditionalOnMissingBean
-        @ConditionalOnProperty(name = "zuihou.swagger.markdown.enable", havingValue = "true")
+        @ConditionalOnProperty(name = "yx.swagger.markdown.enable", havingValue = "true")
         public MarkdownFiles markdownFiles(SwaggerProperties swaggerProperties) {
             return new MarkdownFiles(swaggerProperties.getMarkdown().getBasePath());
         }

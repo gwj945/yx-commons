@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>Spring Boot 2.x项目依赖管理</description>
-    <url>https://gitee.com/zuihou111/zuihou-admin-cloud</url>
+    <url>https://github.com/gwj945/yx-commons</url>
 
     <properties>
 
@@ -83,9 +83,9 @@
 
     <developers>
         <developer>
-            <id>zuihou</id>
-            <name>zuihou</name>
-            <email>244387066@qq.com</email>
+            <id>gwj945</id>
+            <name>gwj945</name>
+            <email>105403009@qq.com</email>
             <roles>
                 <role>Java Development Engineer</role>
             </roles>
@@ -93,9 +93,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git@github.com:zuihou/zuihou-commons.git</connection>
-        <developerConnection>scm:git@github.com:zuihou/zuihou-commons.git</developerConnection>
-        <url>git@github.com:zuihou/zuihou-commons.git</url>
+        <connection>scm:https://github.com/gwj945/yx-commons.git</connection>
+        <developerConnection>scm:https://github.com/gwj945/yx-commons.git</developerConnection>
+        <url>https://github.com/gwj945/yx-commons.git</url>
     </scm>
 
     <distributionManagement>

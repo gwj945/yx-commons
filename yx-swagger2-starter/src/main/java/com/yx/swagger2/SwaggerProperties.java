@@ -14,13 +14,13 @@ import static com.yx.swagger2.SwaggerProperties.PREFIX;
  * swagger2 属性配置
  * 必须配置 prefix ，才能有提示
  *
- * @author zuihou
+ * @author yx
  * @date 2018/11/18 9:17
  */
 @Data
 @ConfigurationProperties(prefix = PREFIX)
 public class SwaggerProperties {
-    public static final String PREFIX = "zuihou.swagger";
+    public static final String PREFIX = "yx.swagger";
     /**
      * 是否开启swagger
      **/
@@ -49,7 +49,7 @@ public class SwaggerProperties {
     /**
      * 描述
      **/
-    private String description = "zuihou-admin-cloud 在线文档";
+    private String description = "yx-admin-cloud 在线文档";
     /**
      * 版本
      **/
@@ -177,7 +177,7 @@ public class SwaggerProperties {
         /**
          * 描述
          **/
-        private String description = "zuihou-admin-cloud 在线文档";
+        private String description = "yx-admin-cloud 在线文档";
         /**
          * 版本
          **/
@@ -279,11 +279,11 @@ public class SwaggerProperties {
         /**
          * 联系人
          **/
-        private String name = "zuihou";
+        private String name = "yx";
         /**
          * 联系人url
          **/
-        private String url = "https://github.com/zuihou/zuihou-admin-cloud";
+        private String url = "https://github.com/yx/yx-admin-cloud";
         /**
          * 联系人email
          **/
@@ -304,8 +304,8 @@ public class SwaggerProperties {
     @NoArgsConstructor
     public static class Basic {
         private Boolean enable = false;
-        private String username = "zuihou";
-        private String password = "zuihou";
+        private String username = "yx";
+        private String password = "yx";
     }
 
     @Data

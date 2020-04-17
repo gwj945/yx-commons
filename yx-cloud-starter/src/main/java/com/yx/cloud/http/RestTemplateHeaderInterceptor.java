@@ -13,7 +13,7 @@
 ///**
 // * RestTemplateHeaderInterceptor 传递Request header
 // *
-// * @author zuihou
+// * @author yx
 // */
 //@AllArgsConstructor
 //public class RestTemplateHeaderInterceptor implements ClientHttpRequestInterceptor {

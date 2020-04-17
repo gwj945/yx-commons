@@ -25,9 +25,9 @@ public class SecureUtilTest {
     private static AuthInfo build(JwtProperties properties) {
 
         String basic = "enVpaG91X2FkbWluX3VpenVpaG91X2FkbWluX3VpenVpaG91X2FkbWluX3VpenVpaG91X2FkbWluX3VpOnp1aWhvdV9hZG1pbl91aV9zZWNyZXR6dWlob3VfYWRtaW5fdWl6dWlob3VfYWRtaW5fdWl6dWlob3VfYWRtaW5fdWl6dWlob3VfYWRtaW5fdWl6dWlob3VfYWRtaW5fdWk=";
-        //zuihou_ui:zuihou_ui_secret
+        //yx_ui:yx_ui_secret
 //        String basic = "enVpaG91X3VpOnp1aWhvdV91aV9zZWNyZXQ=";
-        //zuihou_ui:zuihou_ui_secret
+        //yx_ui:yx_ui_secret
 //        String basic ="enVpaG91X2FkbWluX3VpOnp1aWhvdV9hZG1pbl91aV9zZWNyZXQ=";
 
         JwtUserInfo user = new JwtUserInfo();

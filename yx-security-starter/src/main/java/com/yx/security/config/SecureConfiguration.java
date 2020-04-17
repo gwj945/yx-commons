@@ -17,7 +17,7 @@ import org.springframework.core.annotation.Order;
 /**
  * 权限认证配置类
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月29日22:34:45
  */
 @Order

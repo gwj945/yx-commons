@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Loadbalancer RestTemplate
  *
- * @author zuihou
+ * @author yx
  */
 public class LbRestTemplate extends RestTemplate {
 

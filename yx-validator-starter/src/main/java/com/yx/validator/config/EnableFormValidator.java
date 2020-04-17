@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 /**
  * 在启动类上添加该注解来启动表单验证功能
  *
- * @author zuihou
+ * @author yx
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

@@ -3,7 +3,7 @@ package com.yx.exception;
 /**
  * 异常接口类
  *
- * @author zuihou
+ * @author yx
  * @version 1.0,
  */
 public interface BaseException {

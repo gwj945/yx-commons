@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 读取 j2cache 配置
  *
- * @author zuihou
+ * @author yx
  * @date 2020年02月15日15:14:28
  */
 public class SpringJ2CacheConfigUtil {

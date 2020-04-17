@@ -18,7 +18,7 @@ import java.util.List;
  *
  * @param <Entity> 实体
  * @param <Id>     主键
- * @author zuihou
+ * @author yx
  * @date 2020年03月07日22:02:16
  */
 public interface DeleteController<Entity, Id extends Serializable> extends BaseController<Entity> {

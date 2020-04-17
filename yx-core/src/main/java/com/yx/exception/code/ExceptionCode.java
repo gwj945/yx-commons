@@ -23,7 +23,7 @@ package com.yx.exception.code;
  * 统一监管平台异常 编码 范围：  110000-114999
  * 认证方面的异常编码  范围：115000-115999
  *
- * @author zuihou
+ * @author yx
  * @createTime 2017-12-13 16:22
  */
 public enum ExceptionCode implements BaseExceptionCode {

@@ -9,7 +9,7 @@ import static com.yx.jwt.JwtProperties.PREFIX;
 /**
  * 认证服务端 属性
  *
- * @author zuihou
+ * @author yx
  * @date 2018/11/20
  */
 @Data

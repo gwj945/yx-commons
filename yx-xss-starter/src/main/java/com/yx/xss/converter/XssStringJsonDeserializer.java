@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 过滤跨站脚本的 反序列化工具
  *
- * @author zuihou
+ * @author yx
  */
 public class XssStringJsonDeserializer extends JsonDeserializer<String> {
     @Override

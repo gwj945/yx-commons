@@ -29,7 +29,7 @@ import static org.apache.ibatis.mapping.SqlCommandType.*;
  * 该拦截器只用于演示环境， 开发和生产都不需要
  * <p>
  *
- * @author zuihou
+ * @author yx
  * @date 2019/2/1
  */
 @Slf4j
@@ -42,7 +42,7 @@ public class WriteInterceptor extends AbstractSqlParserHandler implements Interc
     @SneakyThrows
     public Object intercept(Invocation invocation) {
         // 为什么在拦截器里使用 @RefreshScope 无效？
-        if (!SpringUtils.getApplicationContext().getEnvironment().getProperty("zuihou.database.isNotWrite", Boolean.class, false)) {
+        if (!SpringUtils.getApplicationContext().getEnvironment().getProperty("yx.database.isNotWrite", Boolean.class, false)) {
             return invocation.proceed();
         }
 

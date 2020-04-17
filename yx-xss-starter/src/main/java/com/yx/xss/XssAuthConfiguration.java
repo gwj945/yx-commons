@@ -14,7 +14,7 @@ import java.util.StringJoiner;
 /**
  * XSS 跨站攻击自动配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019/07/25
  */
 public class XssAuthConfiguration {

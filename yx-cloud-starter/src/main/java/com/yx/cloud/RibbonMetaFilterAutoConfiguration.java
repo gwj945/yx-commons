@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Scope;
 /**
  * 配置ribbon 相关
  *
- * @author zuihou
+ * @author yx
  * @date 2020年02月15日14:00:16
  */
 @Configuration

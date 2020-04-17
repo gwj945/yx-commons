@@ -21,7 +21,7 @@ import java.io.IOException;
  * http://dozer.sourceforge.net/documentation/usage.html
  * http://www.jianshu.com/p/bf8f0e8aee23
  *
- * @author zuihou
+ * @author yx
  * @createTime 2017-11-23 16:27
  */
 @Configuration

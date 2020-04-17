@@ -12,7 +12,7 @@ import static com.yx.utils.DateUtils.DEFAULT_TIME_FORMAT;
 /**
  * 解决入参为 Date类型
  *
- * @author zuihou
+ * @author yx
  * @date 2019-04-30
  */
 public class String2LocalTimeConverter extends BaseDateConverter<LocalTime> implements Converter<String, LocalTime> {

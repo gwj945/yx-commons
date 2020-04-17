@@ -5,7 +5,7 @@ import java.util.function.Function;
 /**
  * 缓存操作公共接口
  *
- * @author zuihou
+ * @author yx
  * @date 2019/08/07
  */
 public interface CacheRepository {

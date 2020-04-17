@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-cache-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-cloud-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-databases" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-dozer-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-injection-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-j2cache-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-jwt-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-log-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-mq-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-scan-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-security-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-swagger2-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-validator-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-xss-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yx-zipkin-client-starter" charset="UTF-8" />
+  </component>
+</project>

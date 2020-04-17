@@ -48,7 +48,7 @@ import java.util.List;
  *
  * <p>
  *
- * @author zuihou
+ * @author yx
  * @Null 被注释的元素必须为 null
  * @NotNull 被注释的元素必须不为 null
  * @AssertTrue 被注释的元素必须为 true

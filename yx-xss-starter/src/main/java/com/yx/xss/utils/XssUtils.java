@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * XSS 工具类， 用于过滤特殊字符
  *
- * @author zuihou
+ * @author yx
  * @date 2019/07/02
  */
 @Slf4j

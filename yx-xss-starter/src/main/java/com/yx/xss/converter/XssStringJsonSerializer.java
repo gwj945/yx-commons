@@ -12,7 +12,7 @@ import java.io.IOException;
  * 基于xss的 json 序列化器
  * 在本项目中，没有使用该类
  *
- * @author zuihou
+ * @author yx
  * @date 2019/06/28
  */
 @Slf4j

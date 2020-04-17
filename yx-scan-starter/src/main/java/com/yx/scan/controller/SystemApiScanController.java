@@ -23,7 +23,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 /**
  * 系统api扫描
  *
- * @author zuihou
+ * @author yx
  * @date 2019/12/16
  */
 @RestController

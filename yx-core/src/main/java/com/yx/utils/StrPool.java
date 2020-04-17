@@ -3,7 +3,7 @@ package com.yx.utils;
 /**
  * 常用字符串
  *
- * @author zuihou
+ * @author yx
  * @date 2019/07/25
  */
 public interface StrPool {

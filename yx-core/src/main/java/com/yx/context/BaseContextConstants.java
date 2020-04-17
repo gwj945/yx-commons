@@ -3,7 +3,7 @@ package com.yx.context;
 /**
  * 常量工具类
  *
- * @author zuihou
+ * @author yx
  * @date 2018/12/21
  */
 public class BaseContextConstants {
@@ -34,7 +34,7 @@ public class BaseContextConstants {
     /**
      * JWT token 签名
      */
-    public static final String JWT_SIGN_KEY = "zuihou";
+    public static final String JWT_SIGN_KEY = "yx";
 
     /**
      * JWT中封装的 租户编码

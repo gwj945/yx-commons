@@ -10,7 +10,7 @@ import com.yx.exception.code.BaseExceptionCode;
  * 基础接口
  *
  * @param <Entity> 实体
- * @author zuihou
+ * @author yx
  * @date 2020年03月07日21:56:32
  */
 public interface BaseController<Entity> {

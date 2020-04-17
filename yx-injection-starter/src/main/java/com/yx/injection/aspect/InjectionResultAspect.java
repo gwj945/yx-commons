@@ -13,7 +13,7 @@ import org.aspectj.lang.annotation.Pointcut;
 /**
  * InjectionResult 注解的 AOP 工具
  *
- * @author zuihou
+ * @author yx
  * @create 2020年01月19日09:27:41
  */
 @Aspect

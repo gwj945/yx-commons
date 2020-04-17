@@ -20,7 +20,7 @@ import static com.yx.context.BaseContextConstants.*;
 /**
  * 认证工具类
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月31日19:03:47
  */
 @AllArgsConstructor

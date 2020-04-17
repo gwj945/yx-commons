@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 /**
  * swagger 包扫描配置
  *
- * @author zuihou
+ * @author yx
  * @date 2018/11/18 9:22
  */
 @Import({
@@ -43,7 +43,7 @@ public class SwaggerAutoConfiguration implements BeanFactoryAware {
 
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(name = "zuihou.swagger.enabled", havingValue = "true", matchIfMissing = true)
+    @ConditionalOnProperty(name = "yx.swagger.enabled", havingValue = "true", matchIfMissing = true)
     public List<Docket> createRestApi() {
         ConfigurableBeanFactory configurableBeanFactory = (ConfigurableBeanFactory) beanFactory;
         List<Docket> docketList = new LinkedList<>();

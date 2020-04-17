@@ -3,7 +3,7 @@ package com.yx.lock;
 /**
  * 分布式锁抽象类
  *
- * @author zuihou
+ * @author yx
  * @date 2019-08-06 10:43
  */
 public abstract class AbstractDistributedLock implements DistributedLock {

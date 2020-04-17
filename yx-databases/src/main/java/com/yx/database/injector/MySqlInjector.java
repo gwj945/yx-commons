@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 自定义sql 注入器
  *
- * @author zuihou
+ * @author yx
  * @date 2020年02月19日15:39:49
  */
 public class MySqlInjector extends DefaultSqlInjector {

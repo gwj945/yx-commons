@@ -3,7 +3,7 @@ package com.yx.function;
 /**
  * 处理异常的 函数
  *
- * @author zuihou
+ * @author yx
  * @date 2019/05/15
  */
 @FunctionalInterface

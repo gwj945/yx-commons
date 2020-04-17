@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 /**
  * 系统api扫描配置类
  *
- * @author zuihou
+ * @author yx
  * @date 2019/12/16
  */
 @ComponentScan(
@@ -46,7 +46,7 @@ public class ScanConfiguration {
     }
 
     @Configuration
-    @ConditionalOnProperty(name = "zuihou.scan.type", havingValue = "FEIGN", matchIfMissing = true)
+    @ConditionalOnProperty(name = "yx.scan.type", havingValue = "FEIGN", matchIfMissing = true)
     @EnableFeignClients(basePackageClasses = ScanFeignConfiguration.SystemApiApi.class)
     public static class ScanFeignConfiguration {
 
@@ -59,10 +59,10 @@ public class ScanConfiguration {
         /**
          * 系统接口
          *
-         * @author zuihou
+         * @author yx
          * @date 2019/12/16
          */
-        @FeignClient(name = "${zuihou.feign.oauth-server:zuihou-oauth-server}", path = "/systemApi", fallback = SystemApiApiFallback.class)
+        @FeignClient(name = "${yx.feign.oauth-server:yx-oauth-server}", path = "/systemApi", fallback = SystemApiApiFallback.class)
         public interface SystemApiApi {
             /**
              * 批量保存
@@ -93,7 +93,7 @@ public class ScanConfiguration {
         /**
          * 熔断
          *
-         * @author zuihou
+         * @author yx
          * @date 2019/12/16
          */
         @Component
@@ -110,7 +110,7 @@ public class ScanConfiguration {
     /**
      * 使用队列时，消费者需要自行实现
      */
-    @ConditionalOnProperty(name = "zuihou.scan.type", havingValue = "RABBIT")
+    @ConditionalOnProperty(name = "yx.scan.type", havingValue = "RABBIT")
     public static class ScanRabbitConfiguration {
 
         @Bean("systemApiScanService")

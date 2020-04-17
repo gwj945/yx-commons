@@ -23,11 +23,11 @@ import org.springframework.context.annotation.Primary;
 /**
  * 内存缓存配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019/08/07
  */
 @Slf4j
-@ConditionalOnProperty(name = "zuihou.cache.type", havingValue = "CAFFEINE")
+@ConditionalOnProperty(name = "yx.cache.type", havingValue = "CAFFEINE")
 @EnableConfigurationProperties({CustomCacheProperties.class})
 public class CaffeineAutoConfigure {
 

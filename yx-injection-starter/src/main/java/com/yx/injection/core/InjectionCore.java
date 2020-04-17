@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit;
  * 2. 依次查询待注入的数据
  * 3. 将查询出来结果注入到obj的 @InjectionFiled注解的字段中
  *
- * @author zuihou
+ * @author yx
  * @date 2019/11/13
  */
 @Slf4j

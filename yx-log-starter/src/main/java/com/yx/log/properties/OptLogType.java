@@ -3,7 +3,7 @@ package com.yx.log.properties;
 /**
  * 日志类型
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月09日15:00:04
  */
 public enum OptLogType {

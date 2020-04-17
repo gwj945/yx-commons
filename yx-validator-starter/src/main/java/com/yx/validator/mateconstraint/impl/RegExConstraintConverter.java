@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 正则校验规则
  *
- * @author zuihou
+ * @author yx
  */
 public class RegExConstraintConverter extends BaseConstraintConverter implements IConstraintConverter {
     @Override

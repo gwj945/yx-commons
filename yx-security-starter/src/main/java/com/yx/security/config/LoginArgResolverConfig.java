@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 公共配置类, 一些公共工具配置
  *
- * @author zuihou
+ * @author yx
  * @date 2018/8/25
  */
 @AllArgsConstructor

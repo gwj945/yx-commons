@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Http RestTemplateHeaderInterceptor 配置
  *
- * @author zuihou
+ * @author yx
  */
 @Configuration
 @ConditionalOnClass(okhttp3.OkHttpClient.class)

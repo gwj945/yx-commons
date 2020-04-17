@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 /**
  * 初始化TtlMDCAdapter实例，并替换MDC中的adapter对象
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月09日16:46:47
  */
 public class MyMDCAdapterInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

@@ -38,7 +38,7 @@ import static com.yx.database.mybatis.conditions.Wraps.replace;
  * 4，增加 leFooter 方法， 将日期参数值，强制转换成当天 23：59：59
  * 5，增加 geHeader 方法， 将日期参数值，强制转换成当天 00：00：00
  *
- * @author zuihou
+ * @author yx
  * @date Created on 2019/5/27 17:11
  * @description 查询构造器
  */
@@ -51,7 +51,7 @@ public class LbqWrapper<T> extends AbstractLambdaWrapper<T, LbqWrapper<T>>
     private SharedString sqlSelect = new SharedString();
 
     /**
-     * 是否跳过空值（zuihou项目扩展）
+     * 是否跳过空值（yx项目扩展）
      */
     private boolean skipEmpty = true;
 

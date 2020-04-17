@@ -10,11 +10,11 @@ import java.util.Map;
 /**
  * 主要用来设置通过 @Cacheable 注解标注的方法的缓存策略
  *
- * @author zuihou
+ * @author yx
  * @date 2019/08/06
  */
 @Data
-@ConfigurationProperties(prefix = "zuihou.cache")
+@ConfigurationProperties(prefix = "yx.cache")
 public class CustomCacheProperties {
 
     /**

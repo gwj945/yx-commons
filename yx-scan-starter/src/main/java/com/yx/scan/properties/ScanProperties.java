@@ -6,11 +6,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * 系统接口扫描配置
  *
- * @author zuihou
+ * @author yx
  * @date 2019/12/17
  */
 @Data
-@ConfigurationProperties(prefix = "zuihou.scan")
+@ConfigurationProperties(prefix = "yx.scan")
 public class ScanProperties {
 
     private ScanPersistenceType type = ScanPersistenceType.FEIGN;

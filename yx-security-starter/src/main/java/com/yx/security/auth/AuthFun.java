@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 /**
  * 权限判断
  *
- * @author zuihou
+ * @author yx
  * @date 2020年03月29日21:14:58
  */
 public class AuthFun {

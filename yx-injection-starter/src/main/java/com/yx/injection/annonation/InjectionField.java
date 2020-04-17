@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * 强烈建议：不要对象之间互相依赖
  * 如： User 想要注入 File， File也想注入User
  *
- * @author zuihou
+ * @author yx
  * @create 2020年01月18日17:59:25
  */
 

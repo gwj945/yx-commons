@@ -20,14 +20,14 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 关联字段数据注入工具 自动配置类
  *
- * @author zuihou
+ * @author yx
  * @date 2019/09/20
  */
 @Slf4j
 @Configuration
 @AllArgsConstructor
 @EnableConfigurationProperties(InjectionProperties.class)
-@ConditionalOnProperty(name = "zuihou.injection.enabled", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(name = "yx.injection.enabled", havingValue = "true", matchIfMissing = true)
 public class InjectionDataAutoConfiguration {
     private InjectionProperties remoteProperties;
 
@@ -44,7 +44,7 @@ public class InjectionDataAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(name = {"zuihou.injection.aop-enabled"}, havingValue = "true", matchIfMissing = true)
+    @ConditionalOnProperty(name = {"yx.injection.aop-enabled"}, havingValue = "true", matchIfMissing = true)
     public InjectionResultAspect getRemoteAspect(InjectionCore injectionCore) {
         return new InjectionResultAspect(injectionCore);
     }

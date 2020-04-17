@@ -15,7 +15,7 @@ import java.io.Serializable;
  *
  * @param <K> ID或者code 等唯一键
  * @param <D> 根据key 远程查询出的数据
- * @author zuihou
+ * @author yx
  * @date 2020年02月02日21:16:22
  */
 @Data

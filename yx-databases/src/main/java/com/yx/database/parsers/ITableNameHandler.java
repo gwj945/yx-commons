@@ -6,7 +6,7 @@ import org.apache.ibatis.reflection.MetaObject;
 /**
  * 表名处理
  *
- * @author zuihou
+ * @author yx
  * @date 2019/08/20
  */
 @FunctionalInterface
