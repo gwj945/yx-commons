@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>项目公共模块</description>
-    <url>https://github.com/gwj945/yx-commons</url>
+    <url>#</url>
 
     <modules>
         <module>yx-core</module>
@@ -43,31 +43,6 @@
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
     </properties>
 
-    <licenses>
-        <license>
-            <name>Apache 2</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <id>ys</id>
-            <name>gwj945</name>
-            <email>105403009@qq.com</email>
-            <roles>
-                <role>Java Development Engineer</role>
-            </roles>
-            <timezone>2020-04-17 17:50:10</timezone>
-        </developer>
-    </developers>
-    <scm>
-        <connection>scm:https://github.com/gwj945/yx-commons.git</connection>
-        <developerConnection>scm:https://github.com/gwj945/yx-commons.git</developerConnection>
-        <url>https://github.com/gwj945/yx-commons.git</url>
-    </scm>
 
 
 
