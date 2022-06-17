@@ -25,7 +25,7 @@
         <dynamic.datasource.version>3.0.1</dynamic.datasource.version>
         <jasypt.version>2.1.0</jasypt.version>
         <p6spy.version>3.8.7</p6spy.version>
-        <fastjson.version>1.2.66</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <transmittable-thread-local.version>2.11.4</transmittable-thread-local.version>
         <druid.version>1.1.21</druid.version>
         <mysql.version>8.0.19</mysql.version>
